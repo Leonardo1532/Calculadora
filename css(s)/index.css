@@ -193,4 +193,5 @@
     background-color: #282828;
     color: rgb(255, 113, 113);
     transition: 0.5s;
+    cursor: pointer;
 }
