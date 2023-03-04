@@ -1,0 +1,170 @@
+.header {
+    display: flex;
+    height: 14vh;
+    background-color: #042940;
+    justify-content: start;
+}
+
+.header img {
+    height: 13vh;
+    width: 10vw;
+    margin-left: 1.5vw;
+    margin-top: 0.5vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #ffffff;
+    height: 86vh;
+    width: 100vw;
+}
+
+.subContent {
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    width: 60%;
+    height: 100%;
+    background-color: #EEEEEE;
+}
+
+.calculator {
+    display: grid;
+    height: 55vh;
+    width: 25vw;
+    background-color: #4f5363;
+    margin-top: 7vh;
+    grid-template-rows: 11.5vh 43.5vh;
+}
+
+.screen {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    width: 24.15vw;
+    height: 10vh;
+    background-color: #c1f2bfcd;
+    border-radius: 2vh;
+    margin-top: 0.85vh;
+    margin-left: 0.425vw;
+    grid-row: 1 / 2;
+}
+
+.interface {
+    font-size: 7vh;
+    margin-right: 1vw;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 43.5vh;
+    width: 25vw;
+}
+
+.buttons {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 5.6vw 5.6vw 5.6vw 5.6vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    gap: 0.8vh;
+}
+
+.buttom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 5.6vw;
+    font-size: 6.5vh;
+    color: white;
+    border-radius: 2vh;
+}
+
+.buttom:hover {
+    cursor: pointer;
+}
+
+.collor1 {
+    background-color: #3d3e42;
+}
+
+.collor2 {
+    background-color: #4f5363;
+}
+
+.collor3 {
+    background-color: rgb(255, 73, 53);
+}
+
+#divisaoImg {
+    height: 10vh;
+    width: 5.6vw;
+}
+
+#multiplicacaoImg {
+    height: 10vh;
+    width: 5.6vw;
+}
+
+#subtracaoImg {
+    height: 10vh;
+    width: 5.6vw;
+}
+
+#ponto {
+    height: 2.5vh;
+    width: 1.25vw;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#igualImg {
+    height: 10vh;
+    width: 5.6vw;
+}
+
+#adicaoImg {
+    height: 10vh;
+    width: 5.6vw;
+}
+
+.lastResult {
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 12.5vw 12.5vw;
+    height: 15vh;
+    width: 25vw;
+    margin-top: 65vh;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 12.5vw;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resultContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 12.5vw;
+    border-radius: 3vh;
+    background-color: #042940;
+    color: white;
+    font-size: 4vh;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="../css(s)/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="../imagens/logo_semsite_semfundo (1).png" alt="LogoFlit">
+    </div>
+    <div class="content">
+        <div class="subContent">
+            <div class="calculator">
+                <section class="screen">
+                    <div class="interface">0</div>
+                </section>
+                <div class="display">
+                    <section class="buttons">
+                        <div class="buttom collor1 sete" value="7">7</div>
+                        <div class="buttom collor1 oito" value="8">8</div>
+                        <div class="buttom collor1 nove" value="9">9</div>
+
+                        <div class="buttom collor2 divisao" value="divisao"><img id="divisaoImg"
+                                src="../imagens/divisao (1).png" alt=" / ">
+                        </div>
+
+                        <div class="buttom collor1 quatro" value="4">4</div>
+                        <div class="buttom collor1 cinco" value="5">5</div>
+                        <div class="buttom collor1 seis" value="6">6</div>
+
+                        <div class="buttom collor2 multiplicacao" value="multiplicacao"><img id="multiplicacaoImg"
+                                src="../imagens/multiplicacao.png" alt=" x "></div>
+
+                        <div class="buttom collor1 um" value="1">1</div>
+                        <div class="buttom collor1 dois" value="2">2</div>
+                        <div class="buttom collor1 tres" value="3">3</div>
+
+                        <div class="buttom collor2 subtracao" value="subtracao"><img id="subtracaoImg"
+                                src="../imagens/subtracao.png" alt=" - "></div>
+
+                        <div class="buttom collor1 zero" value="0">0</div>
+                        <div class="buttom collor3 ponto" value=".">
+                            <div id="ponto"></div>
+                        </div>
+                        <div class="buttom collor2 igual" value="igual"><img id="igualImg" src="../imagens/igual.png"
+                                alt="igual">
+                        </div>
+
+                        <div class="buttom collor2 adicao" value="adicao"><img id="adicaoImg"
+                                src="../imagens/adicao.png" alt=" + ">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="lastResult">
+                <span class="title">Último Resultado</span>
+                <span class="resultContent">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="../js(S)/index.js"></script>
+</body>
+
+</html>
