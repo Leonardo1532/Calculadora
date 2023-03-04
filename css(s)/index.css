@@ -168,3 +168,29 @@
     color: white;
     font-size: 4vh;
 }
+
+.zerar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 10vw;
+    border-radius: 3vh;
+    margin-left: 41.5vw;
+    margin-top: 30vh;
+    background-color: #3d3e42;
+    color: rgb(255, 73, 53);
+    font-size: 5.5vh;
+}
+
+.zerar span {
+    margin-bottom: 0.3vh;
+}
+
+.zerar:hover {
+    background-color: #282828;
+    color: rgb(255, 113, 113);
+    transition: 0.5s;
+}

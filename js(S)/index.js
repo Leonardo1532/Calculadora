@@ -22,6 +22,8 @@ let ponto = document.querySelector('.ponto')
 
 let ultimoResultado = document.querySelector('.resultContent')
 
+let zerar = document.querySelector('.zerar')
+
 let arrayNumeros = [zero, um, dois, tres, quatro, cinco, seis, sete, oito, nove, ponto]
 
 let arrayOperacoes = [divisao, multiplicacao, subtracao, adicao]
@@ -49,12 +51,8 @@ igual.addEventListener('click', event => {
     let resultado
     let split = interface.innerHTML.split(" ")
 
-    console.log(split)
-
     let number1 = parseFloat(split[0])
-    console.log(number1)
     let number2 = parseFloat(split[2])
-    console.log(number2)
 
     if (split.length == 3) {
         switch (split[1]) {
@@ -99,11 +97,9 @@ igual.addEventListener('click', event => {
 
     window.localStorage.setItem("LastResult", ultimoResultado.innerHTML)
 
-    if (ultimoResultado.innerHTML == 0) {
-        window.addEventListener("load", ValorLocalStorage)
-    }
+    ultimoResultado.innerHTML = window.localStorage.getItem("LastResult")
+})
 
-    function ValorLocalStorage() {
-        ultimoResultado.innerHTML = window.localStorage.getItem("LastResult")
-    }
+zerar.addEventListener('click', event => {
+    interface.innerHTML = "0"
 })
